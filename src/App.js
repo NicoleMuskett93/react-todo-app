@@ -14,7 +14,7 @@ function App() {
       complete: false,
     },
     {
-      todo: "hover the car",
+      todo: "Hover the car",
       complete: false,
     },
   ]);
@@ -54,6 +54,10 @@ function App() {
 
   return (
     <div className="app">
+      <div>
+        <h1> To Do List </h1>
+        <p> Please use this app to help you with your busy schedule. </p>
+      </div>
       <TodoInput createTodoItem={createTodoItem} />
       {todoItems.map((item, index) => (
         <TodoItem

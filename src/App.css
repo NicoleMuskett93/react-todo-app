@@ -1,5 +1,5 @@
 body {
-  background: #324376;
+  background: #087E8B
 }
 
 * {
@@ -34,12 +34,22 @@ li {
   overflow-wrap: anywhere;
   height: auto;
   width: 176px;
+  font-weight:600;
 }
 
 button {
-  padding: 0 8px;
+  padding: 4px 8px;
   margin: 0 4px;
   border-radius: 8px;
   color: #000000;
-  background-color: #f68e5f;
+  background-color: #F7D08A;
+}
+
+h1, p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p { 
+  font-size: 18px;
 }
